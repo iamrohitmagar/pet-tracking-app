@@ -1,0 +1,67 @@
+{
+    "questions": [{
+            "questionText": "Which pet to do you have ??",
+            "options": [
+                {
+                    "questionNo" :1
+                },
+                {
+                    "text": "Cat",
+                    "inputType":"radio",
+                    "questionNo" :1
+                },
+                {
+                    "text": "Dog",
+                    "inputType":"radio",
+                    "questionNo" :1
+                },
+                {
+                    "text": "Fish",
+                    "inputType":"radio",
+                    "questionNo" :1
+                },
+                {
+                    "text": "Bird",
+                    "inputType":"radio",
+                    "questionNo" :1
+                }
+            ]
+        },
+        {
+            "questionText": "What is the name of your pet ?",
+            "options": [
+                {
+                    "questionNo" :2
+                },
+                {
+                    "inputType": "text",
+                    "questionNo" :2
+                }
+            ]
+        },
+        {
+            "questionText": "How much do you spend per month for your pet’s food ?",
+            "questionNo" :3,
+            "options": [
+                {
+                    "questionNo" :3
+                },
+                {
+                    "text": "Less than 20 CHF",
+                    "inputType":"radio",
+                    "questionNo" :3
+                },
+                {
+                    "text": "Between 20 and 50 CHF",
+                    "inputType":"radio",
+                    "questionNo" :3
+                },
+                {
+                    "text": "More than 50 CHF",
+                    "inputType":"radio",
+                    "questionNo" :3
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welocme to your Pet Survey</h1>
+        <div class="name col-md-4 my-3">
+            <label for="">Enter your name:</label>
+            <input #name type="text" class="form-control" [(ngModel)]="userName" (ngModelChange)="modelChanged($event)" required/>
+        </div>
+        <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startSurvey()" [disabled]="disabled">Start the Questionaire!!</button>
+</div>
